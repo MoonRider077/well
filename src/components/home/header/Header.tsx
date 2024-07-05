@@ -14,7 +14,7 @@ return (
         <div className='mx-auto max-w-screen-xl py-[10px] sm:px-5 flex justify-between sm:bg-[red]'>
         <div className='flex items-center'>
             <Link to='/'>
-                <img src="/src/assets/images/header__logo.png" alt="Header logo" className="sm:w-[130px] sm:h-[32px]"/>
+                <img src="./src/assets/images/header__logo.png" alt="Header logo" className="sm:w-[130px] sm:h-[32px]"/>
             </Link>
         </div>
         <div className='flex items-center gap-5 sm:gap-[10px]'>
