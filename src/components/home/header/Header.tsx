@@ -27,7 +27,7 @@ export default function Header() {
                     <Order />
                 </div>
                 <div className="flex sm:hidden">
-                    <ul className="flex gap-6 items-center">
+                    <ul className="flex gap-[26px] items-center">
                         <li>
                             <Link to="/about">{t('header.about')}</Link>
                         </li>

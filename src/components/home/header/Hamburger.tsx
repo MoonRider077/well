@@ -56,8 +56,8 @@ const Hamburger: React.FC = () => {
             />
         </div>
         {showProducts && (
-            <div id='hamburgerMenu' className='w-full absolute top-[70px] left-[-218px]'>
-                <div className='z-[9999] bg-white py-5 absolute flex items-center gap-4 '>
+            <div id='hamburgerMenu' className='absolute top-[70px] left-[-220px] bg-white '>
+                <div className='w-[1400px] z-[9999] bg-white py-5 absolute flex items-center gap-4 '>
                  {
                     productsHamburger.map((circle, index) => {
                         const colSpanClass = index < 5 ? 'md:flex' : 'sm:grid sm:grid-cols-5';

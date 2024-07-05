@@ -1,10 +1,10 @@
 {
     "header": {
       "home": "Bosh sahifa",
-      "about": "Biz haqimizda",
+      "about": "Ma'lumot",
       "contact": "Aloqa",
       "news": "Yangiliklar",
-      "delivery": "Yetkazib berish manzili",
+      "delivery": "Yetkazib berish",
       "order": "Manzil qo'shish"
     },
     
@@ -63,7 +63,7 @@
     },
 
         "footer": {
-            "about": "Biz haqimizda",
+            "about": "Ma'lumot",
             "contact": "Aloqa",
             "delivery": "Yetkazib berish",
             "newss": "Yangiliklar",
