@@ -1,0 +1,139 @@
+{
+    "header": {
+      "home": "Bosh sahifa",
+      "about": "Biz haqimizda",
+      "contact": "Aloqa",
+      "news": "Yangiliklar",
+      "delivery": "Yetkazib berish manzili",
+      "order": "Manzil qo'shish"
+    },
+    
+    "banner": {
+      "main": "100 litr suv buyurtma",
+      "second": "bering va nasosni",
+      "third": "bepul oling"
+    },
+    
+    "buttons": {
+      "details": "Batafsil ma'lumot",
+      "add": "Savatga qo'shish"
+    },
+
+    "production": {
+      "product": "Bizning mahsulotlarimiz"
+    },
+
+    "products": [
+    { "title": "Suv, 19 L", "price": "40,000 so'm" },
+    { "title": "Suv, 10 L", "price": "12,000 so'm" },
+    { "title": "Suv sovutgichi", "price": "5,000,000 so'm" },
+    { "title": "Mexanik nasos", "price": "20,000 so'm" },
+    { "title": "Idish tutqichi", "price": "14,000 so'm" }
+  ],
+
+    "accordion": {
+        "title": "Nega biz",
+        "items": [
+          {
+            "title": "Bizning inson huquq huquqbuzarlarimizning jasorati bizga mustaqil qarorlar qabul qilish huquqini beradi",
+            "answer": "Bizning pozitsiyamiz yakun: rejalashtirilgan ish rejalari amalga oshirilishiga, qabul qilingan qarorlarni ijro etishning iqtisodiy maslahatiga oid muhim vazifalarni bajarishga imkon beradi! Bu joriy tashqiyo oson ta'sirlarining yorqin namunasi - turli faoliyat turlarining keyingi rivojlanishi jamiyatning vazifalari uchun hech qanday imkoniyat qoldirmaydi."
+          },
+          {
+            "title": "Ba'zi muxoliflar sog'ingan tadbirlarini sursat bilan davom ettirishadi",
+            "answer": "Maʼlumot yoʻq"
+          },
+          {
+            "title": "Muammo narxi so'rayotgan vaqtda, ko'z yorug'lanib qolganda",
+            "answer": "Maʼlumot yoʻq"
+          },
+          {
+            "title": "Tashkiloti faoliyatining yangi modeli o'zini to'liq ko'rsatdi",
+            "answer": "Maʼlumot yoʻq"
+          }
+        ]
+    },
+
+    "news": {
+        "title": "Yangiliklar",
+        "description": [
+            { "title": "Ma'lum bo'lishicha, organik trafik bizni hech narsaga majburlamaydi", "subtitle": "Bizning pozitsiyamizning aniqligi aniq: rejalashtirilgan ko'rsatkichlarning bajarilishi..." },
+            { "title": "Ma'lum bo'lishicha, organik trafik bizni hech narsaga majburlamaydi", "subtitle": "Bizning pozitsiyamizning aniqligi aniq: rejalashtirilgan ko'rsatkichlarning bajarilishi..." },
+            { "title": "Ma'lum bo'lishicha, organik trafik bizni hech narsaga majburlamaydi", "subtitle": "Bizning pozitsiyamizning aniqligi aniq: rejalashtirilgan ko'rsatkichlarning bajarilishi..." }
+        ]
+    },
+
+        "footer": {
+            "about": "Biz haqimizda",
+            "contact": "Aloqa",
+            "delivery": "Yetkazib berish",
+            "newss": "Yangiliklar",
+            "terms": "Foydalanuvchi shartnomasi",
+            "company_about": "Kompaniya haqida",
+            "google_play": "yuklab oling",
+            "app_store": "yuklab oling",
+            "address": [
+            "Toshkent shahri, Shayxontohur tumani,",
+            "",
+            "Istiroxat kochasi, 41-uy"
+            ],
+            "order": "Toshkent shahri bo'ylab suv yetkazib berish",
+            "madeIn": "Exord Soft da ishlab chiqilgan"
+        },
+
+        "pages": {
+            "main": "Bosh sahifa",
+            "about": "Biz haqimizda",
+            "contact": "Aloqa",
+            "news": "Yangiliklar",
+            "terms": "Foydalanish shartlari",
+            "details": "Aniqlikka e'tibor bering, organik trafik...",
+            "newsDetails": "Aniqlikka e'tibor bering, organik trafik bizni hech qachon majburlamaydi",
+            "aboutUs1": "Sayyorlar, empatiya bilan aralashgan, ratsional o'ylash ichki zapaslar va resurslarni bo'lish uchun keng imkoniyatlar yaratadi. Sovremenniy dunyoda, jamiyat tartibining yuqori texnologik kontseptsiyasi mavjud moliyaviy va boshqaruv shartlarini rivojlantirishda muhim vazifalarni bajarishga imkon beradi. Ommaviy mukofotlarning strukturasi asosiy xususiyatlari to'plamlari sifatida birlashishi mumkin. No shubhasizki, rivojlanishning asosiy yo'nalishi qulay o'zgarishlarni amalga oshirish uchun sharoitlar yaratadi. Albatta, ichki siyosatning ba'zi xususiyatlari faqatgina marketing va moliyaviy shartlar nazariyasi asosida ko'rib chiqilgan.",
+            "aboutUs2": "Maqsad aholisi vakillarining yuqori darajada qatnashishi sodda haqiqatning ko'rsatgichidir: zamonaviy metodikalar boshqarishiga mo'ljallangan shartlar tomonidan boshqarish. Qanday sababdan, faqat sintetik tarzda boshlanayotgan siyosiy jarayonning tarkibi tuzilmas elementlarga funksional ravishda ajratiladi. Xalqaro holatni hisobga olgan holda, yangi tashkilot faoliyat modeli yangi material-texnik va xodimlar bazasini shakllantirish prinsiplarini amalga oshirish uchun qulaydir. O'zbekiston fuqarolarining, ichki siyosatning ba'zi xususiyatlari ochiq ravishda e'lon qilinganini ko'rish juda qulay. Ayniqsa, mustaqil to'lovni amalga oshirishda tajribaviy jadval tuziladi.",
+            "phone": "Telefon:",
+            "socialMedia": "Ijtimoiy tarmoqlar:",
+            "mail": "Pochta:",
+            "address": "Manzil:",
+            "termsTitle": "Foydalanish shartlari",
+            "termsSubtitle1": "1. Atamalar ta'rifi",
+            "termsSubtitle2": "2. Umumiy qoidalar",
+            "termsSubtitle3": "3. Shartnoma mavzusi",
+            "more1": "E'tibor qarash kerakki, ki ko'p turli yangiliklarni o'z ichiga olish imkonini beruvchi ko'p sozlamali, ko'p katta hujjati bo'yicha ko'p turli ilmiy tadqiqotlar bo'yicha o'ziga xos eksperimentlarga javob berishi kerak. Tez e'tibor berish kerakki, ushbu muammoning ahamiyati, ushbu kunlarda hozirgi aktivlarni chiqarishning zarurlikini aniq ko'rsatadi. Jahonning yangiliklarni ko'rish kerak, ki rivojlanayotgan dunyoga tayyorgarlik ma'ruza etmoqchi bolgan yondashuvlar yondashuvar bo'yicha o'ziga xos eksperimentlarga javob berishi kerak.",
+            "more2": "Yosh jamoatni yaxshilash uchun urushishi-da, ular ushbu ijtimoiy-maqsadli milliy loyihaga yo'naltilgan yo'llar esa mavjud bo'lish patternlarini tahlil uchun keng imkoniyatlar beradi. Hozirgi standartlar muhitida, internet analitikasi asosida keltilgan chiqimlar sohalar bo'yicha associativ tarqatilgan. Avvalgi murujoatlar ohirgi, nigorlamas: niqobi va tashqaridan quyidagi konceptual ro'yhatlarni zarurlikni yanada qamayotli ro'yhatlarni fixslaydi. Hozirgi texnologiyalar ushbu darajaga etkazhon kelgan bo'lib, murujoatlar niqobi asosida quyidagi chiqimlar ta'rif hajm va o'shishi bilan porazit qilish mahsuloti: gospoda, o'rnatilgan tashkilat tuzilmasi davom etish maqsadi mazmundi muhokama qarorining test bajarishini taqdim etadi. Faqat umumiy rasmeyatning bir qismi hisoblanagan, har qaysi turkosentli-avrupo politika madianati misol qilib, jihat qilinadi."
+    },
+
+        "terms": {
+            "1": "1. Quyida keltirilgan atamalar ushbu Shartnoma maqsadlari uchun quyidagi ma'nolarga ega:",
+            "1.1": "1.1. 'internet-do'kon nomi' internet-do'koni – domen nomida joylashgan www.internet-do'kon manzili, o'z faoliyatini Internet-resursi va unga tegishli xizmatlar orqali amalga oshiradi, Tovarlar, Sotuvchi haqida ma'lumotlarni o'z ichiga oladi va Tovarni tanlash, buyurtma qilish va (yoki) sotib olish imkoniyatini beradi.",
+            "1.2": "1.2. Veb-sayt – www.___________",
+            "1.3": "1.3. Sayt mehmoni — www.______ saytiga buyurtma berish maqsadisiz kirgan shaxs.",
+            "1.4": "1.4. Foydalanuvchi — saytga kirgan, ushbu Shartnoma shartlarini qabul qilgan va Internet-do'konda Buyurtma berishni istagan jismoniy shaxs.",
+            "1.5": "1.5. Xaridor (Iste'molchi) - Internet-do'konda Buyurtma bergan Foydalanuvchi.",
+            "1.6": "1.6. Sotuvchi — Tovarlar Internet-do'konida joylashtirilgan yuridik shaxs yoki yakka tartibdagi tadbirkor.",
+            "1.7": "1.7. Internet-do'kon saytining Ma'muriyati — Sotuvchi nomidan saytni boshqaruvchi vakolatli xodimlar.",
+            "1.8": "1.8. Tovar — saytida sotuvga qo'yilgan poyabzal, kiyim-kechak, aksessuarlar va boshqa tovarlar.",
+            "1.9": "1.9. Buyurtma — Xaridor tomonidan Saytda tanlangan Tovarlarni sotib olish va Xaridor ko'rsatgan manzilga yetkazib berish / o'z-o'zidan olib ketish uchun to'g'ri rasmiylashtirilgan talab.",
+            "1.10": "1.10. Hisob — saytida ro'yxatdan o'tish jarayonidan o'tgandan keyin mavjud bo'lgan Foydalanuvchi / Xaridor sahifasi, shaxsiy ma'lumotlarni o'z ichiga oladi va login va parol yordamida kirish amalga oshiriladi. Hisob orqali amalga oshirilgan harakatlar Hisobda ko'rsatilgan shaxsiy ma'lumotlarga ega bo'lgan Foydalanuvchi / Xaridor tomonidan amalga oshirilgan deb hisoblanadi.",
+            "1.11": "1.11. Call-markaz — murojaatlarni (qo'ng'iroqlarni) qayta ishlash markazi, shu jumladan ovozli aloqa kanallari orqali mijozlarning buyurtmalarini axborot bilan ta'minlash va rasmiylashtirish.",
+            "2.1": "2.1. Ushbu Foydalanuvchi shartnomasi (bundan buyon – Shartnoma) 'internet-do'kon nomi' internet-do'konining saytiga tegishli bo'lib, manzil: internet-do'kon manzili va www.____________________ internet-do'kon manzili bilan bog'liq barcha tegishli saytlar uchun amal qiladi.",
+            "2.2": "2.2. 'internet-do'kon nomi' Internet-do'koni (bundan buyon – sayt) tashkilotning mulki, korxona nomi ___________________________",
+            "2.3": "2.3. Ushbu Shartnoma 'internet-do'kon nomi' internet-do'koni (bundan buyon – Internet-do'kon) va ushbu Saytning Foydalanuvchisi o'rtasidagi munosabatlarni tartibga soladi.",
+            "2.4": "2.4. Internet-do'kon Shartnomaning bandlarini, saytidan foydalanish qoidalarini va sayt mazmunini o'zgartirish, qo'shish yoki o'chirish huquqini istalgan vaqtda bir tomonlama ravishda Foydalanuvchini xabardor qilmasdan amalga oshiradi. O'zgarishlar Shartnomaning yangi tahriri Saytda e'lon qilingan paytdan kuchga kiradi.",
+            "2.5": "2.5. Foydalanuvchi ushbu Shartnomani o'zgarishlarga tekshirish uchun shaxsan mas'uldir.",
+            "2.6": "2.6. Foydalanuvchining saytni foydalanishi davom ettirishi Shartnomani va unga kiritilgan o'zgartirishlarni qabul qilishni anglatadi. Ushbu Shartnoma bilan rozi bo'lmagan Foydalanuvchi xizmatdan foydalanishni darhol to'xtatishi va Saytdan chiqishi shart.",
+            "2.7": "2.7. Internet-do'kon ushbu Shartnoma shartlarini buzgan holda Foydalanuvchining saytga kirishini cheklash huquqiga ega.",
+            "2.8": "2.8. Saytning materiallari va xizmatlaridan foydalanish O'zbekiston Respublikasi amaldagi qonunchiligi normalari bilan tartibga solinadi.",
+            "3.1": "3.1. Ushbu Shartnomaning predmeti Foydalanuvchiga shaxsiy, oilaviy, uy xo'jaliklari va tadbirkorlik faoliyati bilan bog'liq bo'lmagan boshqa ehtiyojlar uchun internet-do'kon katalogida ko'rsatilgan Tovarlarni sotib olish imkoniyatini taqdim etishdan iborat. Ushbu Shartnoma internet-do'kon katalogida tavsiflari mavjud bo'lgan barcha turdagi Tovarlar va xizmatlarga nisbatan amal qiladi.",
+            "3.2": "3.2. Ushbu Shartnomaning huquqiy tartibga solinishi O'zbekiston Respublikasining Fuqarolik kodeksi, O'zbekiston Respublikasining 'Iste'molchilar huquqlarini himoya qilish to'g'risida'gi 1996 yil 26 apreldagi № 221–I-sonli, 'Elektron tijorat to'g'risida'gi 2004 yil 29 apreldagi № 613–II-sonli qonunlari, O'zbekiston Respublikasi Vazirlar Mahkamasining 2003 yil 13 fevraldagi 75-sonli qaroriga 1-ilovasi (2003 yil 13 fevraldagi № 75-sonli qaroriga ilova) bo'yicha O'zbekiston Respublikasida chakana savdo qoidalari, O'zbekiston Respublikasi Vazirlar Mahkamasining 2016 yil 2 iyundagi 185-sonli qaroriga 1-ilovasi (2016 yil 2 iyundagi № 185-sonli qaroriga ilova) bo'yicha elektron tijorat qoidalari va O'zbekiston Respublikasining boshqa normativ hujjatlari asosida amalga oshiriladi.",
+            "3.3": "3.3. Ushbu Shartnoma hozirgi vaqtda mavjud bo'lgan (haqiqiy faoliyat yuritayotgan) Internet-do'kon xizmatlari (xizmatlari)ga, shuningdek, Internet-do'konning keyingi modifikatsiyalari va kelajakda paydo bo'ladigan qo'shimcha xizmatlari (xizmatlari)ga nisbatan amal qiladi.",
+            "3.4": "3.4. Ushbu Shartnoma O'zbekiston Respublikasining Fuqarolik kodeksining 367, 369-moddalariga muvofiq, ommaviy oferta hisoblanadi. Saytga kirish orqali Foydalanuvchi ushbu Shartnomaga qo'shilgan hisoblanadi.",
+            "3.5": "3.5. Chakana sotib olish-shartnoma sotuvchi xaridorga naqd yoki tovar cheki yoki boshqa hujjatni taqdim etgan vaqtdan boshlab tuzilgan deb hisoblanadi."
+    },
+
+    "error": {
+        "title": "sahifa topilmadi",
+        "span": "Afsus, ",
+        "button": "Bosh sahifaga"
+    }
+}
+  

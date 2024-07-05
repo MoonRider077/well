@@ -1,0 +1,139 @@
+{
+    "header": {
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact",
+      "news": "News",
+      "delivery": "Delivery Address",
+      "order": "Add address"
+    },
+    
+    "banner": {
+      "main": "Order 100 liters of",
+      "second": "water and get a",
+      "third": "pump for free"
+    },
+    
+    "buttons": {
+      "details": "Detailed",
+      "add": "Add to cart"
+    },
+
+    "production": {
+      "product": "Our production"
+    },
+
+    "products": [
+    { "title": "Water, 19 L", "price": "40,000 uzs" },
+    { "title": "Water, 10 L", "price": "12,000 uzs" },
+    { "title": "Water cooler", "price": "5,000,000 uzs" },
+    { "title": "Mechanical pump", "price": "20,000 uzs" },
+    { "title": "Bottle handle", "price": "14,000 uzs" }
+  ],
+
+    "accordion": {
+        "title": "Why we",
+        "items": [
+          {
+            "title": "The valor of our human rights activists gives us the right to make independent decisions",
+            "answer": "The clarity of our position is evident: implementing planned tasks allows us to fulfill important tasks related to the development of the economic feasibility of decisions taken! Here is a bright example of modern trends - further development of various forms of activity leaves no chance for society's tasks."
+          },
+          {
+            "title": "The conviction of some opponents continues to surprise",
+            "answer": "no data"
+          },
+          {
+            "title": "The price of the issue is irrelevant when the sky darkens",
+            "answer": "no data"
+          },
+          {
+            "title": "The new model of organizational activity has shown itself in all its glory",
+            "answer": "no data"
+          }
+        ]
+    },
+
+    "news": {
+        "title": "News",
+        "description": [
+            { "title": "Seems like that organic traffic does not oblige us to anything", "subtitle": "The clarity of our position is obvious: the implementation of the planned targets allows..." },
+            { "title": "Seems like that organic traffic does not oblige us to anything", "subtitle": "The clarity of our position is obvious: the implementation of the planned targets allows..." },
+            { "title": "Seems like that organic traffic does not oblige us to anything", "subtitle": "The clarity of our position is obvious: the implementation of the planned targets allows..." }
+        ]
+    },
+    
+    "footer": {
+        "about": "About Us",
+        "contact": "Contact",
+        "delivery": "Delivery",
+        "newss": "News",
+        "terms": "Terms of Service",
+        "company_about": "About the Company",
+        "google_play": "Download on the",
+        "app_store": "Download on the",
+        "address": [
+            "41 Istiroxat St, Shayxontohur district,",
+            "",
+            "Tashkent City"
+        ],
+        "order": "Water delivery throughout the city of Tashkent",
+        "madeIn": "Developed at Exord Soft"
+        },
+
+    "pages": {
+        "main": "Main",
+        "about": "About Us",
+        "contact": "Contact",
+        "news": "News",
+        "terms": "Terms of Service",
+        "details": "Seems like organic traffic...",
+        "newsDetails": "Seems like organic traffic doesn't commit us to anything",
+        "aboutUs1": "Gentlemen, mixed with a good deal of empathy, rational thinking provides ample opportunities for the allocation of internal reserves and resources. For the modern world, a high-tech concept of public order allows us to perform important tasks in developing existing financial and administrative conditions. As is commonly believed, key features of the project structure can be grouped into clusters of their own kind. Undoubtedly, the basic vector of development creates conditions for favorable prospects. Certainly, some features of internal policy are considered solely in terms of marketing and financial prerequisites.",
+        "aboutUs2": "A high level of involvement of representatives of the target audience is clear evidence of the simple fact: the implementation of modern methods directly depends on the corresponding conditions of activation. It is difficult to say why elements of the political process, initiated exclusively synthetically, are functionally separated into independent elements. Given the current international situation, a new model of organizational activity is well suited for implementing new principles of material-technical and personnel base formation. It is pleasing, citizens, to observe how some features of internal policy are made public. In particular, prospective planning is perfectly suited for implementing progress in the professional community.",
+        "phone": "Phone:",
+        "socialMedia": "Social Media:",
+        "mail": "Mail:",
+        "address": "Address:",
+        "termsTitle": "Terms of Service",
+        "termsSubtitle1": "1. Definition of Terms",
+        "termsSubtitle2": "2. General Provisions",
+        "termsSubtitle3": "3. Subject of Agreement",
+        "more1": "It should be noted that a high-quality prototype of a future project, in its classic representation, allows for the implementation of experiments that are striking in their scale and grandeur. The opposing viewpoint suggests that actively developing third world countries urge us towards new achievements, which, in turn, must be timely verified. The significance of these issues is so obvious that today's economic agenda unequivocally records the necessity of withdrawing current assets. For the modern world, the established organizational structure, in its classic representation, allows for the implementation of phased and sequential societal development. It should be noted that the implementation of planned tasks represents an interesting experiment in testing the prioritization of reason over emotions.",
+        "more2": "In their quest to improve quality of life, they forget that a course towards a socially-oriented national project provides ample opportunities for analyzing existing behavioral patterns. Within the framework of modern standards specifications, conclusions drawn from internet analytics are associatively distributed across sectors. Preliminary findings are disheartening: the implementation of planned tasks unequivocally underscores the necessity for both self-sufficient and externally dependent conceptual solutions. Modern technologies have reached such a level that the implementation of planned tasks highlights an urgent need for experiments that are striking in their scale and grandeur. Gentlemen, the established organizational structure represents an interesting experiment in testing further development directions. As only a part of the bigger picture, certain features of internal policies, which serve as a vivid example of continental-European political culture, will be called to account."
+    },
+
+    "terms": {
+        "1": "1. The terms listed below have the following meanings for the purposes of this Agreement:",
+        "1.1": "1.1. Online store 'name of online store' – a website located at the domain name www.address of the online store, conducting its activities through the Internet resource and related services, containing information about Goods, the Seller, and allowing to make a selection, order, and (or) purchase of the Goods.",
+        "1.2": "1.2. Website – www.___________",
+        "1.3": "1.3. Site visitor — a person who has visited the site www.______ without the purpose of placing an Order.",
+        "1.4": "1.4. User — an individual who visits the site, accepts the terms of this Agreement, and intends to place Orders in the Online Store.",
+        "1.5": "1.5. Buyer (Consumer) - a User who has placed an Order in the Online Store.",
+        "1.6": "1.6. Seller — a legal entity or individual entrepreneur whose Goods are placed in the Online Store.",
+        "1.7": "1.7. Administration of the Online Store site — authorized employees managing the site, acting on behalf of the Seller.",
+        "1.8": "1.8. Goods — shoes, clothing, accessories, and other goods presented for sale on the Site.",
+        "1.9": "1.9. Order — a properly completed request of the Buyer for the purchase and delivery to the address specified by the Buyer / by self-pickup of the Goods selected on the Site.",
+        "1.10": "1.10. Account — the User / Buyer's page available after completing the registration procedure on the site, containing personal data and accessible using a login and password. Actions performed through the Account are considered to be performed by the User / Buyer whose personal data is indicated in the Account.",
+        "1.11": "1.11. Call-center — a contact processing center (calls), including information support and customer order processing through voice communication channels.",
+        "2.1": "2.1. This User Agreement (hereinafter referred to as the Agreement) applies to the site of the Online Store 'name of online store', located at the address: address of the online store, and to all relevant sites linked to the site www.____________________ address of the online store.",
+        "2.2": "2.2. The Online Store site 'name of online store' (hereinafter referred to as the site) is the property of the organization, enterprise name ___________________________",
+        "2.3": "2.3. This Agreement governs the relationship between the Online Store 'name of online store' (hereinafter referred to as the Online Store) and the User of this Site.",
+        "2.4": "2.4. The Online Store reserves the right to unilaterally change, add, or remove clauses of this Agreement, change the rules for using the site, as well as change the content of this site without notifying the User. Changes take effect from the moment the new edition of the Agreement is published on the Site.",
+        "2.5": "2.5. The User is personally responsible for checking this Agreement for changes.",
+        "2.6": "2.6. Continuing to use the site by the User means accepting the Agreement and changes made to this Agreement. If the User does not agree with this Agreement, they must immediately stop using the service and leave the Site.",
+        "2.7": "2.7. The Online Store has the right to restrict access to the site in case of violation of the terms of this Agreement by the User.",
+        "2.8": "2.8. The use of materials and services of the site is regulated by the norms of the current legislation of the Republic of Uzbekistan.",
+        "3.1": "3.1. The subject of this Agreement is to provide the User with the opportunity to purchase for personal, family, household, and other needs not related to business activities, the Goods presented in the catalog of the Online Store at the address ___. This Agreement applies to all types of Goods and services presented on the site as long as such offers with descriptions are present in the catalog of the Online Store.",
+        "3.2": "3.2. The legal regulation of this Agreement is carried out in accordance with the provisions of the Civil Code of the Republic of Uzbekistan, the Laws of the Republic of Uzbekistan 'On Consumer Protection' No. 221-I dated 26.04.1996, 'On Electronic Commerce' No. 613-II dated 29.04.2004, the Rules of Retail Trade in the Republic of Uzbekistan (Appendix No. 1 to the Resolution of the Cabinet of Ministers of the Republic of Uzbekistan No. 75 dated 13.02.2003), the Rules for Conducting Electronic Commerce (Appendix No. 1 to the Resolution of the Cabinet of Ministers of the Republic of Uzbekistan No. 185 dated 02.06.2016) and other regulatory acts of the Republic of Uzbekistan.",
+        "3.3": "3.3. This Agreement applies to all existing (actually functioning) services (services) of the Online Store at the moment, as well as any subsequent modifications and additional services (services) of the Online Store that appear in the future.",
+        "3.4": "3.4. This Agreement is a public offer, in accordance with Articles 367, 369 of the Civil Code of the Republic of Uzbekistan. By accessing the site, the User is considered to have joined this Agreement.",
+        "3.5": "3.5. The retail purchase and sale agreement is considered concluded from the moment the Seller issues the Buyer a cash or sales receipt or another document confirming the payment of the Goods."
+    },
+
+    "error": {
+        "title": "page not found",
+        "span": "Oops, ",
+        "button": "Back to home"
+    }
+}
+  

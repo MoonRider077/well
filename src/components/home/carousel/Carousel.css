@@ -1,0 +1,65 @@
+.slick-prev:before {
+    content: url('/src/assets/icons/arrow_right_blue.svg');
+}
+
+.slick-prev:hover:before {
+    content: url('/src/assets/icons/arrow_right_white.svg');
+}
+
+.slick-next:before {
+    content: url('/src/assets/icons/arrow_left_blue.svg');
+}
+
+.slick-next:hover:before {
+    content: url('/src/assets/icons/arrow_left_white.svg');
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: none;
+    font-size: 0;
+    line-height: 0;
+}
+
+.custom-arrow {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #F7F8FA;
+    padding: 1.4rem;
+    border-radius: 50%;
+}
+
+.custom-arrow:hover {
+    background: #0072BB;
+    transition: 0.3s ease;
+}
+
+.slick-dots {
+    bottom: 2.5rem;
+    left: 7.5rem;
+    text-align: left;
+    display: flex !important;
+    gap: 6px;
+    width: 0;
+}
+
+.slick-dots li {
+    width: 8px;
+    height: 8px;
+}
+
+.slick-dots li button {
+    width: 8px;
+    height: 8px;
+    background-color: #92B9D2;
+    border-radius: 20px;
+}
+
+.slick-dots li button:before {
+    content: none;
+}
+
+.slick-dots li.slick-active button {
+    width: 20px;
+    background-color: #0072BB;
+}

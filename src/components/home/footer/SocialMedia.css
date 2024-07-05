@@ -1,0 +1,16 @@
+.social-media:hover {
+    background-color: #0072BB; 
+    transition: 0.3s ease-in-out;
+}
+
+.social-media:nth-child(1):hover {
+    content: url('../../../assets/icons/whiteFacebook.svg');
+}
+
+.social-media:nth-child(2):hover {
+    content: url('../../../assets/icons/whiteInstagram.svg');
+}
+
+.social-media:nth-child(3):hover {
+    content: url('../../../assets/icons/whiteTelegram.svg');
+}
