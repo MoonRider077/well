@@ -28,7 +28,7 @@ const ErrorPage: React.FC = () => {
                     </span>
                     {t('error.title')}
                 </h2>
-                <img src="/src/assets/images/404.png" alt="404" className='mt-[1.25rem]'/>
+                <img src="/images/404.png" alt="404" className='mt-[1.25rem]'/>
                 <Link to='/'>
                     <button className='py-4 px-[10rem] rounded-[50px] bg-[#F7F8FA] mt-[3.125rem] hover:bg-[#0072BB] hover:text-[#FFFFFF] transition duration-300 ease-in-out'>
                         {t('error.button')}

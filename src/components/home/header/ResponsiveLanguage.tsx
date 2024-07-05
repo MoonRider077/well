@@ -28,32 +28,32 @@ const ResponsiveLanguage: React.FC = () => {
   return (
     <div id='res-parent' className='relative hidden sm:block'>
         <div className='bg-white rounded-full p-[8px]' onClick={handleShowLanguage}>
-            <img src="/src/assets/icons/GlobeSimple.svg" alt="Globe Icon" />
+            <img src="/icons/GlobeSimple.svg" alt="Globe Icon" />
         </div>
         {showLanguage && (
             <div id='res-child' className='w-[100px] bg-[#a0d2eb] absolute z-50 border border-[#7d3cff] rounded-[10px] right-[-30px] top-12'>
                 <div 
                     className='flex items-center w-full gap-5'>
                     <p className='w-[50px] h-[36px] text-[20px] leading-[36px] pl-[10px]'>En</p>
-                    <img src="/src/assets/icons/uk.png" alt="Flag" className='w-[20px] h-[20px]'/>
+                    <img src="/icons/uk.png" alt="Flag" className='w-[20px] h-[20px]'/>
                 </div>
                 <hr />
                 <div 
                     className='flex items-center w-full gap-5'>
                     <p className='w-[50px] h-[36px] text-[20px] leading-[36px] pl-[10px]'>Рус</p>
-                    <img src="/src/assets/icons/ru.png" alt="Flag" className='w-[20px] h-[20px]'/>
+                    <img src="/icons/ru.png" alt="Flag" className='w-[20px] h-[20px]'/>
                 </div>
                 <hr />
                 <div 
                     className='flex items-center w-full gap-5'>
                     <p className='w-[50px] h-[36px] text-[20px] leading-[36px] pl-[10px]'>O'zb</p>
-                    <img src="/src/assets/icons/uz.png" alt="Flag" className='w-[20px] h-[20px]'/>   
+                    <img src="/icons/uz.png" alt="Flag" className='w-[20px] h-[20px]'/>   
                 </div>
                 <hr />
                 <div 
                     className='flex items-center w-full gap-5'>
                     <p className='w-[50px] h-[36px] text-[20px] leading-[36px] pl-[10px]'>De</p>
-                    <img src="/src/assets/icons/de.svg" alt="Flag" className='w-[20px] h-[20px]'/>
+                    <img src="/icons/de.svg" alt="Flag" className='w-[20px] h-[20px]'/>
                 </div>
             </div>
         )}

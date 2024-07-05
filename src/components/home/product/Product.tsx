@@ -9,11 +9,11 @@ interface Card {
 }
 
 const cards: Card[] = [
-  { id: 1, titleKey: 'products.0.title', priceKey: 'products.0.price', image: '/src/assets/images/filter_1.png' },
-  { id: 2, titleKey: 'products.1.title', priceKey: 'products.1.price', image: '/src/assets/images/filter_2.png' },
-  { id: 3, titleKey: 'products.2.title', priceKey: 'products.2.price', image: '/src/assets/images/filter_3.png' },
-  { id: 4, titleKey: 'products.3.title', priceKey: 'products.3.price', image: '/src/assets/images/filter_4.png' },
-  { id: 5, titleKey: 'products.4.title', priceKey: 'products.4.price', image: '/src/assets/images/filter_5.png' },
+  { id: 1, titleKey: 'products.0.title', priceKey: 'products.0.price', image: '/images/filter_1.png' },
+  { id: 2, titleKey: 'products.1.title', priceKey: 'products.1.price', image: '/images/filter_2.png' },
+  { id: 3, titleKey: 'products.2.title', priceKey: 'products.2.price', image: '/images/filter_3.png' },
+  { id: 4, titleKey: 'products.3.title', priceKey: 'products.3.price', image: '/images/filter_4.png' },
+  { id: 5, titleKey: 'products.4.title', priceKey: 'products.4.price', image: '/images/filter_5.png' },
 ];
 
 const Product: React.FC = () => {

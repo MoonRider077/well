@@ -1,17 +1,17 @@
 .slick-prev:before {
-    content: url('/src/assets/icons/arrow_right_blue.svg');
+    content: url('/icons/arrow_right_blue.svg');
 }
 
 .slick-prev:hover:before {
-    content: url('/src/assets/icons/arrow_right_white.svg');
+    content: url('/icons/arrow_right_white.svg');
 }
 
 .slick-next:before {
-    content: url('/src/assets/icons/arrow_left_blue.svg');
+    content: url('/icons/arrow_left_blue.svg');
 }
 
 .slick-next:hover:before {
-    content: url('/src/assets/icons/arrow_left_white.svg');
+    content: url('/icons/arrow_left_white.svg');
 }
 
 .slick-prev:before, .slick-next:before {

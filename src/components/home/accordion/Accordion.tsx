@@ -21,7 +21,7 @@ const Accordion: React.FC<AccordionProps> = ({ index, isOpen, onClick, title, an
                 </span>
                 <span className="p-4 rounded-full bg-white">
                     <img
-                        src={isOpen ? '/src/assets/icons/Minus.svg' : '/src/assets/icons/Plus.svg'}
+                        src={isOpen ? '/icons/Minus.svg' : '/icons/Plus.svg'}
                         alt={isOpen ? 'Minus Icon' : 'Plus Icon'}
                     />
                 </span>

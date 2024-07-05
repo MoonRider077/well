@@ -23,7 +23,7 @@ const Language: React.FC = () => {
     return (
         <div className='ml-[2rem] relative sm:hidden'>
             <img 
-                src="/src/assets/icons/GlobeSimple.svg" 
+                src="/icons/GlobeSimple.svg" 
                 alt="Globe icon" 
                 className='absolute top-3 left-[10px] pointer-events-none'/>
             <select
@@ -37,7 +37,7 @@ const Language: React.FC = () => {
                 <option value="de">De</option>
             </select>
             <img 
-                src="/src/assets/icons/arrow-down.svg" 
+                src="/icons/arrow-down.svg" 
                 alt="Arrow icon" 
                 className='absolute top-[18px] right-[10px] pointer-events-none'/>
         </div>

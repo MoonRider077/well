@@ -4,13 +4,13 @@
 }
 
 .social-media:nth-child(1):hover {
-    content: url('../../../assets/icons/whiteFacebook.svg');
+    content: url('/icons/whiteFacebook.svg');
 }
 
 .social-media:nth-child(2):hover {
-    content: url('../../../assets/icons/whiteInstagram.svg');
+    content: url('/icons/whiteInstagram.svg');
 }
 
 .social-media:nth-child(3):hover {
-    content: url('../../../assets/icons/whiteTelegram.svg');
+    content: url('/icons/whiteTelegram.svg');
 }

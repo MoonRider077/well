@@ -30,10 +30,10 @@ const Order: React.FC = () => {
   return (
         <div className='relative'>
             <div id="order-parent" className='flex bg-[#F7F8FA] p-3 sm:p-[8px] rounded-[50px] cursor-pointer' onClick={toggleMenu}>
-                <img src="/src/assets/icons/MapPin.svg" alt="Map pin" />
+                <img src="/icons/MapPin.svg" alt="Map pin" />
                 <p className='ml-1 sm:hidden'>{t('header.delivery')}</p>
                 <img 
-                    src={!showMenu ? "/src/assets/icons/arrow-down.svg" : "/src/assets/icons/arroww-up.svg"}
+                    src={!showMenu ? "/icons/arrow-down.svg" : "/icons/arroww-up.svg"}
                     alt={!showMenu ? "Open menu" : "Close menu"}
                     className='ml-[60px] sm:hidden'
                 />
@@ -43,7 +43,7 @@ const Order: React.FC = () => {
                     <p className='text-[#0072BB] text-nowrap'>
                         {t('header.order')}
                     </p>
-                    <img src="/src/assets/icons/Plus.svg" alt="Plus icon" />
+                    <img src="/icons/Plus.svg" alt="Plus icon" />
                 </div>
             )}
         </div>

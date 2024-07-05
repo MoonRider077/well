@@ -9,11 +9,11 @@ interface ProductsMenu {
 }
 
 const productsHamburger: ProductsMenu[] = [
-    { id: 1, image: '/src/assets/images/filter_1.png', titleKey: 'products.0.title' },
-    { id: 1, image: '/src/assets/images/filter_2.png', titleKey: 'products.1.title' },
-    { id: 1, image: '/src/assets/images/filter_3.png', titleKey: 'products.2.title' },
-    { id: 1, image: '/src/assets/images/filter_4.png', titleKey: 'products.3.title' },
-    { id: 1, image: '/src/assets/images/filter_5.png', titleKey: 'products.4.title' }
+    { id: 1, image: '/images/filter_1.png', titleKey: 'products.0.title' },
+    { id: 1, image: '/images/filter_2.png', titleKey: 'products.1.title' },
+    { id: 1, image: '/images/filter_3.png', titleKey: 'products.2.title' },
+    { id: 1, image: '/images/filter_4.png', titleKey: 'products.3.title' },
+    { id: 1, image: '/images/filter_5.png', titleKey: 'products.4.title' }
 ]
 
 const Hamburger: React.FC = () => {
@@ -50,7 +50,7 @@ const Hamburger: React.FC = () => {
     <div className='relative sm:hidden'>
         <div id='parentMenu' className='bg-[#F7F8FA] p-3 rounded-full cursor-pointer' onClick={handleHamburgerClick}>
             <img 
-                src={imgChanged ? "/src/assets/icons/icons8-close.svg" :"/src/assets/icons/burgerMenu.svg" }
+                src={imgChanged ? "/icons/icons8-close.svg" :"/icons/burgerMenu.svg" }
                 alt={imgChanged ? "Close" : "Hamburger" }
                 className='w-6 h-6'
             />

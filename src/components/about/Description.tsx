@@ -18,7 +18,7 @@ const Description: React.FC = () => {
         <div className='pt-[3.75rem] flex justify-center'>
             <div className='text-left w-[65%]'>
                 <h2 className='font-semibold text-[40px] leading-[60px]'>{t('pages.about')}</h2>
-                <img src="/src/assets/images/AboutUsBanner.jpg" alt="About Us Banner" className='mt-[50px]'/>
+                <img src="/images/AboutUsBanner.jpg" alt="About Us Banner" className='mt-[50px]'/>
                 <p className='text-[#677E8B] font-medium mt-[50px]'>
                     {t('pages.aboutUs1')}
                 <br />

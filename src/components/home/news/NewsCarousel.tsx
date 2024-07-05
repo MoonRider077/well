@@ -12,21 +12,21 @@ interface newsData {
 
 const newsDatas: newsData[] = [
     { id: 1, 
-    image: '/src/assets/images/newsPicture1.jpg', 
+    image: '/images/newsPicture1.jpg', 
     titleKey: 'news.description.0.title', 
     subtitleKey: 'news.description.0.subtitle',
     link: '/news/details/1' 
     },
 
     { id: 2, 
-    image: '/src/assets/images/newsPicture2.jpg', 
+    image: '/images/newsPicture2.jpg', 
     titleKey: 'news.description.1.title', 
     subtitleKey: 'news.description.1.subtitle',
     link: '/news/details/2' 
     },
     
     { id: 3, 
-    image: '/src/assets/images/newsPicture3.jpg', 
+    image: '/images/newsPicture3.jpg', 
     titleKey: 'news.description.2.title', 
     subtitleKey: 'news.description.2.subtitle',
     link: '/news/details/3' 

@@ -20,11 +20,11 @@ const FooterTop: React.FC = () => {
         <div className='py-[6.25rem] flex flex-wrap justify-between'>
             <div className='w-full sm:w-auto md:w-4/12'>
                 <Link to='/'>
-                    <img src="/src/assets/images/footerLogo.png" alt="Footer logo" />
+                    <img src="/images/footerLogo.png" alt="Footer logo" />
                 </Link>
                 <div className='flex gap-5 mt-[3.125rem]'>
                     <div className='flex items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
-                        <img src="/src/assets/icons/google_play.svg" alt="Google play" />
+                        <img src="/icons/google_play.svg" alt="Google play" />
                         <p className='text-[12px] leading-[18px]'>
                             {t('footer.google_play')} <br />
                             <span className='text-[16px] leading-[24px] font-medium'>
@@ -33,7 +33,7 @@ const FooterTop: React.FC = () => {
                         </p>
                     </div>
                     <div className='flex items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
-                        <img src="/src/assets/icons/app_store.svg" alt="App store" />
+                        <img src="/icons/app_store.svg" alt="App store" />
                         <p className='text-[12px] leading-[18px]'>
                             {t('footer.app_store')} <br />
                             <span className='text-[16px] leading-[24px] font-medium'>

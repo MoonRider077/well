@@ -63,7 +63,7 @@ const ContactDetails: React.FC = () => {
                 </div>
                 <div>
                 <div>
-                    <img src="/src/assets/images/Mapsicle Map.jpg" alt="Map" className='mt-[110px]'/>
+                    <img src="/images/Mapsicle Map.jpg" alt="Map" className='mt-[110px]'/>
                 </div>
             </div>
         </div>
