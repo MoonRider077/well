@@ -8,7 +8,6 @@ import DetailsFirst from "./components/news/details/Details-1"
 import DetailsSecond from "./components/news/details/Details-2"
 import DetailsThird from "./components/news/details/Details-3"
 import ErrorPage from "./pages/ErrorPage"
-import 'flag-icons/css/flag-icons.min.css';
 
 function App () {
 
