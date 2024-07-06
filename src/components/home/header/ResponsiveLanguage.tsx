@@ -12,7 +12,7 @@ const ResponsiveLanguage: React.FC = () => {
     };
 
     const handleLanguageChange = (lang: string) => {
-        setSelectedLanguage(lang);
+        setSelectedLanguage(selectedLanguage);
         i18n.changeLanguage(lang);
         localStorage.setItem('selectedLanguage', lang);
         setShowLanguage(false); 
