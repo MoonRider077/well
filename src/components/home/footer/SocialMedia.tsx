@@ -1,5 +1,4 @@
 import React from 'react'
-import './SocialMedia.css'
 
 interface socialImages {
     id: number,
@@ -18,9 +17,24 @@ const SocialMedia: React.FC = () => {
     <div className='flex gap-5 justify-end sm:justify-start'>
                 {socialMediaImages.map((circle) => {
                     return(
-                        <a key={circle.id} href={circle.link} className='social-media p-3 bg-white hover:bg-[#0072BB] transition duration-300 ease-in-out rounded-full cursor-pointer'>
-                            <img src={circle.image} alt="Social media icon" className='w-5 h-5'/>
-                        </a>
+                        <a 
+                        key={circle.id} 
+                        href={circle.link} 
+                        style={{ padding: '12px', backgroundColor: 'white', transition: 'background-color 0.3s ease-in-out', borderRadius: '50%', cursor: 'pointer' }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = '#0072BB';
+                            const img = e.currentTarget.querySelector('img');
+                            if (img) img.style.filter = 'brightness(0) invert(1)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = 'white';
+                            const img = e.currentTarget.querySelector('img');
+                            if (img) img.style.filter = 'none';
+                        }}
+                    >
+                        <img src={circle.image} alt="Social media icon" className='w-5 h-5'/>
+                    </a>
+    
                     )
                 })}
             </div>
