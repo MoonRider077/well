@@ -3,14 +3,10 @@
     transition: 0.3s ease-in-out;
 }
 
-.social-media:nth-child(1):hover {
-    content: url('/icons/whiteFacebook.svg');
+.social-media:hover img {
+    filter: brightness(0) invert(1); 
 }
 
-.social-media:nth-child(2):hover {
-    content: url('/icons/whiteInstagram.svg');
-}
-
-.social-media:nth-child(3):hover {
-    content: url('/icons/whiteTelegram.svg');
+.social-media img {
+    filter: brightness(1) invert(0); 
 }

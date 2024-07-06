@@ -4,7 +4,7 @@ import './SocialMedia.css'
 interface socialImages {
     id: number,
     image: string,
-    link: string
+    link: string,
 }
 
 const socialMediaImages: socialImages[] = [
