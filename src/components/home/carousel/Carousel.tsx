@@ -42,13 +42,13 @@ interface ArrowProps {
     };
   
   return (
-    <div className="mx-auto pt-10 max-w-screen-xl">
+    <div className="mx-auto pt-10 sm:pt-[3.125rem] max-w-screen-xl">
         <div className="slider-container">
-      <Slider {...settings}>
-        <Banner />
-        <Banner />
-        <Banner />
-      </Slider>
+          <Slider {...settings}>
+            <Banner />
+            <Banner />
+            <Banner />
+          </Slider>
         </div>
     </div>
   );

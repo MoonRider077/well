@@ -15,7 +15,7 @@ const socialMediaImages: socialImages[] = [
 
 const SocialMedia: React.FC = () => {
   return (
-    <div className='flex gap-5 justify-end'>
+    <div className='flex gap-5 justify-end sm:justify-start'>
                 {socialMediaImages.map((circle) => {
                     return(
                         <a key={circle.id} href={circle.link} className='p-3 bg-white rounded-full cursor-pointer social-media'>

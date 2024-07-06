@@ -63,3 +63,22 @@
     width: 20px;
     background-color: #0072BB;
 }
+
+@media screen and (max-width: 576px) {
+    .custom-arrow {
+        display: none !important;
+    }
+
+    .mob-img {
+        position: relative;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -2rem;
+        left: 39%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 6px;
+    }
+}

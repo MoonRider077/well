@@ -10,7 +10,7 @@ export default function Header() {
 
     return (
         <header className="border-b border-[#F0F2F6]">
-            <div className='mx-auto max-w-screen-xl py-[10px] sm:px-5 flex justify-between sm:bg-[red]'>
+            <div className='mx-auto max-w-screen-xl py-[10px] sm:px-5 flex justify-between'>
                 <div className='flex items-center'>
                     <Link to='/'>
                         <img src="/images/header__logo.png" alt="Header logo" className="sm:w-[130px] sm:h-[32px]" />

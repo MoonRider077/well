@@ -17,13 +17,13 @@ const FooterTop: React.FC = () => {
     const { t } = useTranslation('global');
 
     return (
-        <div className='py-[6.25rem] flex flex-wrap justify-between'>
+        <div className='py-[6.25rem] sm:py-[3.125rem] sm:p-5 flex flex-wrap sm:block sm:flex-nowrap'>
             <div className='w-full sm:w-auto md:w-4/12'>
                 <Link to='/'>
                     <img src="/images/footerLogo.png" alt="Footer logo" />
                 </Link>
-                <div className='flex gap-5 mt-[3.125rem]'>
-                    <div className='flex items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
+                <div className='flex gap-5 mt-[3.125rem] sm:mt-[1.875rem]'>
+                    <div className='flex text-nowrap items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
                         <img src="/icons/google_play.svg" alt="Google play" />
                         <p className='text-[12px] leading-[18px]'>
                             {t('footer.google_play')} <br />
@@ -32,7 +32,7 @@ const FooterTop: React.FC = () => {
                             </span>
                         </p>
                     </div>
-                    <div className='flex items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
+                    <div className='flex text-nowrap items-center py-[10px] px-[14px] rounded-[16px] gap-[5px] bg-white'>
                         <img src="/icons/app_store.svg" alt="App store" />
                         <p className='text-[12px] leading-[18px]'>
                             {t('footer.app_store')} <br />
@@ -43,7 +43,7 @@ const FooterTop: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full sm:w-auto md:w-4/12'>
+            <div className='w-full sm:w-auto md:w-4/12 sm:mt-[3.125rem]'>
                 <ul>
                     <li className='text-[#0072BB] font-semibold text-[20px] leading-[30px]'>
                         {t('footer.company_about')}
@@ -85,16 +85,16 @@ const FooterTop: React.FC = () => {
                     </li>
                 </ul>
             </div>
-            <div className='w-full sm:w-auto md:w-4/12'>
-                <div className='text-right'>
-                    <a href="tel:+998950003003" className='font-medium text-[#0072BB] text-[32px] leading-[48px]'>
+            <div className='w-full sm:w-auto md:w-4/12 sm:mt-[3.125rem]'>
+                <div className='text-right sm:text-left'>
+                    <a href="tel:+998950003003" className='font-medium text-[#0072BB] text-[32px] leading-[48px] sm:text-[24px] sm:leading-[36px]'>
                         +99895 000 30 03
                     </a>
                 </div>
                 <div className='mt-[30px]'>
                     <SocialMedia />
                 </div>
-                <div className='text-right text-[#677E8B] mt-[30px]'>
+                <div className='text-right sm:text-left text-[#677E8B] mt-[30px]'>
                     <a
                         href="mailto:quduqgroup@gmail.com"
                         className='text-[#677E8B] font-medium'

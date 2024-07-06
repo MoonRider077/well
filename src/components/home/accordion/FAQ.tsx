@@ -18,11 +18,13 @@ const FAQ: React.FC = () => {
   const accordionItems = t('accordion.items', { returnObjects: true }) as AccordionItem[]
 
   return (
-    <div className="pt-[7.5rem] mx-auto max-w-screen-xl flex space-x-32">
-      <div className="w-1/4">
-        <h2 className="font-semibold text-[40px] leading-[60px]">{t('accordion.title')}</h2>
+    <div className="pt-[7.5rem] sm:pt-[3.125rem] sm:px-5 mx-auto max-w-screen-xl flex sm:block space-x-32 sm:space-x-0">
+      <div className="w-1/4 sm:w-full">
+        <h2 className="font-semibold text-[40px] leading-[60px] sm:text-[24px] sm:leading-[36px] text-nowrap">
+          {t('accordion.title')}
+        </h2>
       </div>
-      <div className="w-3/4">
+      <div className="w-3/4 sm:w-full">
         {accordionItems.map((item, index) => (
           <Accordion
             key={index}

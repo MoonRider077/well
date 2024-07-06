@@ -6,14 +6,14 @@ const FooterBottom: React.FC = () => {
   const { t } = useTranslation('global')
 
   return (
-    <div className='py-5 border-t border-[#EAEDF2] flex items-center justify-between text-[14px] leading-[21px] text-[#677E8B]'>
+    <div className='py-5 sm:p-5 border-t sm:border-none border-[#EAEDF2] flex sm:flex-col items-center sm:items-start justify-between sm:justify-start text-[14px] leading-[21px] text-[#677E8B]'>
         <p>
             2024 © quduq.uz
         </p>
-        <p className='text-[#0072BB]'>
+        <p className='text-[#0072BB] sm:mt-[10px]'>
             {t('footer.order')}
         </p>
-        <p>
+        <p className='sm:mt-[10px]'>
             {t('footer.madeIn')}
         </p>
     </div>

@@ -39,7 +39,7 @@ const Order: React.FC = () => {
                 />
             </div>
             {showMenu && (
-                <div id="order-menu" className='py-3 shadow-md px-[10px] w-full cursor-pointer flex justify-between bg-white absolute top-[55px] rounded-[16px] z-[999]'>
+                <div id="order-menu" className='sm:hidden py-3 shadow-md px-[10px] w-full cursor-pointer flex justify-between bg-white absolute top-[55px] rounded-[16px] z-[999]'>
                     <p className='text-[#0072BB] text-nowrap'>
                         {t('header.order')}
                     </p>
