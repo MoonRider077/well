@@ -27,7 +27,7 @@ const Language: React.FC = () => {
                 alt="Globe icon" 
                 className='absolute top-3 left-[10px] pointer-events-none'/>
             <select
-                className="py-3 pl-[2.5rem] pr-[1.75rem] border border-none rounded-[50px] bg-[#F7F8FA] appearance-none cursor-pointer"
+                className="py-3 pl-[2.5rem] pr-[1.75rem] border-none rounded-[50px] bg-[#F7F8FA] appearance-none cursor-pointer"
                 value={selectedLanguage}
                 onChange={handleLanguageChange}
             >

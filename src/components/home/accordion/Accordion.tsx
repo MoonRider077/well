@@ -14,10 +14,10 @@ const Accordion: React.FC<AccordionProps> = ({ index, isOpen, onClick, title, an
     const isSmallScreen = window.innerWidth <= 576;
 
     return (
-        <div className={`p-5 bg-[#F7F8FA] sm:p-4 border border-none rounded-[16px] ${addMarginTop ? 'mt-[10px]' : ''} ${isSmallScreen && index === 0 ? 'mt-[20px]' : ''}`}>
+        <div className={`p-5 bg-[#F7F8FA] sm:p-4 rounded-[16px] ${addMarginTop ? 'mt-[10px]' : ''} ${isSmallScreen && index === 0 ? 'mt-[20px]' : ''}`}>
             <button 
                 onClick={() => onClick(index)}
-                className="flex justify-between w-full items-center sm:items-start">
+                className="flex justify-between w-full border-none  items-center sm:items-start">
                 <span className={`${isOpen ? 'text-[#0072BB]' : 'text-[#000000]'} sm:text-left sm:w-[75%]`}>
                     {title}
                 </span>
