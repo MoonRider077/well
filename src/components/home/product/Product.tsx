@@ -50,7 +50,7 @@ const Product: React.FC = () => {
                   <p className='mt-[1.875rem] sm:mt-4'>
                     {t(card.priceKey)}
                   </p>
-                <button className='bg-[#F7F8FA] sm:mt-4 mt-[1.875rem] py-[0.8rem] px-[3.5rem] rounded-[50px] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out'>
+                <button className='bg-[#F7F8FA] sm:mt-4 mt-[1.875rem] py-[0.8rem] px-[3.5rem] border border-none rounded-[50px] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out'>
                   {t('buttons.add')}
                 </button>
               </div>
