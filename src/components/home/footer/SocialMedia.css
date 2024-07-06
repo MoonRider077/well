@@ -1,12 +1,7 @@
-.social-media:hover {
-    background-color: #0072BB; 
-    transition: 0.3s ease-in-out;
-}
-
 .social-media:hover img {
     filter: brightness(0) invert(1); 
 }
 
-.social-media::before img {
+.social-media img {
     filter: brightness(1) invert(0); 
 }
