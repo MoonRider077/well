@@ -48,7 +48,7 @@ const NewsCarousel: React.FC = () => {
                     <p className='mt-5 font-semibold'>{t(card.titleKey)}</p>
                     <p className='mt-[10px] font-medium text-[#677E8B]'>{t(card.subtitleKey)}</p>
                     <Link to={card.link}>
-                    <button className='hover:bg-[#0072BB] hover:text-[#FFFFFF] transition duration-300 ease-in-out py-3 px-16 rounded-[50px] bg-[#F0F2F6] text-[#000000] mt-5'>
+                    <button className='hover:bg-[#0072BB] border-none hover:text-[#FFFFFF] transition duration-300 ease-in-out py-3 px-16 rounded-[50px] bg-[#F0F2F6] text-[#000000] mt-5'>
                         {t('buttons.details')}
                     </button>
                     </Link>
