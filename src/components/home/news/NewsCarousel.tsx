@@ -38,7 +38,7 @@ const NewsCarousel: React.FC = () => {
   const { t } = useTranslation('global') 
 
   return (
-    <div className='grid grid-cols-1 md:grid-cols-12 mt-[3.125rem] gap-5'>
+    <div className='grid grid-cols-1 md:grid-cols-12 mt-[3.125rem] gap-5 sm:mt-[1.25rem]'>
         {newsDatas.map((card, index) => {
             const colSpanClass = index < 3 ? 'md:col-span-4' : 'md:col-span-12';
 
