@@ -134,6 +134,11 @@
         "title": "page not found",
         "span": "Oops, ",
         "button": "Back to home"
-    }
+    },
+
+    "mobile": {
+      "noAddress": "No address",
+      "addressInfo": "Add addresses for more convenient use of our service"
+  }
 }
   

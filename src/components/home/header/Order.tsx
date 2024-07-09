@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 const Order: React.FC = () => {
 
@@ -9,6 +10,8 @@ const Order: React.FC = () => {
     const toggleMenu = () => {
         setShowMenu(!showMenu)
     }
+
+    const isMobile = window.innerWidth <= 576
 
     useEffect(() => {
         const handleOutsideClick = (event: MouseEvent) => {
@@ -29,7 +32,20 @@ const Order: React.FC = () => {
 
   return (
         <div className='relative'>
-            <div id="order-parent" className='flex bg-[#F7F8FA] p-3 sm:p-[8px] rounded-[50px] cursor-pointer' onClick={toggleMenu}>
+            {isMobile ? (
+                <Link to='./address'>
+                    <div id="order-parent" className='flex bg-[#F7F8FA] p-3 sm:p-[8px] rounded-[50px] cursor-pointer' onClick={toggleMenu}>
+                        <img src="/icons/MapPin.svg" alt="Map pin" />
+                        <p className='ml-1 sm:hidden'>{t('header.delivery')}</p>
+                        <img 
+                            src={!showMenu ? "/icons/arrow-down.svg" : "/icons/arroww-up.svg"}
+                            alt={!showMenu ? "Open menu" : "Close menu"}
+                            className='ml-[60px] sm:hidden'
+                        />
+                    </div>
+                </Link>
+            ) : (
+                <div id="order-parent" className='flex bg-[#F7F8FA] p-3 sm:p-[8px] rounded-[50px] cursor-pointer' onClick={toggleMenu}>
                 <img src="/icons/MapPin.svg" alt="Map pin" />
                 <p className='ml-1 sm:hidden'>{t('header.delivery')}</p>
                 <img 
@@ -38,6 +54,7 @@ const Order: React.FC = () => {
                     className='ml-[60px] sm:hidden'
                 />
             </div>
+            )}
             {showMenu && (
                 <div id="order-menu" className='sm:hidden py-3 shadow-md px-[10px] w-full cursor-pointer flex justify-between bg-white absolute top-[55px] rounded-[16px] z-[999]'>
                     <p className='text-[#0072BB] text-nowrap'>

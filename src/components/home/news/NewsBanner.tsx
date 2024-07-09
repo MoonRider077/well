@@ -7,7 +7,7 @@ const NewsBanner: React.FC = () => {
   const { t } = useTranslation('global')
 
   return (
-    <div className='p-5 border border-[#F0F2F6]'>
+    <div className='p-5 border border-solid border-[#F0F2F6]'>
       <img src="/images/mobileNews.jpg" alt="image" className='w-full h-auto'/>
       <p className='mt-5 font-semibold'>{t('news.description.0.title')}</p>
       <p className='mt-[10px] font-medium text-[#677E8B]'>{t('news.description.0.subtitle')}</p>

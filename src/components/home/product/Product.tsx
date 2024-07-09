@@ -42,7 +42,7 @@ const Product: React.FC = () => {
           index === 4 ? 'md:rounded-br-[30px]' : '';
           
           return (
-            <div key={card.id} className={`${colSpanClass} ${borderRadiusClass} ${borderClass} sm:flex-col-reverse flex items-center sm:items-start text-nowrap p-5 col-span-12 border border-[#F0F2F6]`}>
+            <div key={card.id} className={`${colSpanClass} ${borderRadiusClass} ${borderClass} sm:flex-col-reverse flex items-center sm:items-start text-nowrap p-5 col-span-12 border border-solid border-[#F0F2F6]`}>
               <div>
                   <p className='sm:mt-8 sm:text-left'>
                     {t(card.titleKey)}

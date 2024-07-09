@@ -64,7 +64,7 @@ const Hamburger: React.FC = () => {
                         
                         return (
                             <div id='menu' key={circle.id} className={`${colSpanClass} cursor-pointer relative flex items-center justify-center w-[245px] h-[72px] rounded-[200px] bg-[#F7F8FA] group`}>
-                                <div className='absolute border border-[#F0F2F6] group-hover:border-[#0072BB] p-[10px] bg-white bottom-0 left-0 rounded-[200px]'>
+                                <div className='absolute border border-solid border-[#F0F2F6] group-hover:border-[#0072BB] p-[10px] bg-white bottom-0 left-0 rounded-[200px]'>
                                     <img src={circle.image} alt="image" className='w-[50px] h-[50px] rounded-[50px]'/>
                                 </div>
                                 <p className={`text-[12px] group-hover:text-[#0072BB] leading-[20px] ml-[1rem] ${index === 3 || index === 4 ? ' special-class' : ''}`}>

@@ -43,7 +43,7 @@ const NewsCarousel: React.FC = () => {
             const colSpanClass = index < 3 ? 'md:col-span-4' : 'md:col-span-12';
 
             return (
-                <div key={card.id} className={`${colSpanClass} p-5 border border-[#F0F2F6]`}>
+                <div key={card.id} className={`${colSpanClass} p-5 border border-solid border-[#F0F2F6]`}>
                     <img src={card.image} alt="image" />
                     <p className='mt-5 font-semibold'>{t(card.titleKey)}</p>
                     <p className='mt-[10px] font-medium text-[#677E8B]'>{t(card.subtitleKey)}</p>

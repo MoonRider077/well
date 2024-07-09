@@ -40,7 +40,9 @@ export default function Header() {
                     </ul>
                     <Language />
                     <div className="flex items-center">
-                        <a href="tel:+998950003003" className="sm:hidden m-0 ml-9 text-2xl text-[#0072BB]">+99895 000 30 03</a>
+                        <a href="tel:+998950003003" className="sm:hidden m-0 ml-9 text-2xl text-[#0072BB]">
+                            +99895 000 30 03
+                        </a>
                     </div>
                     <div className="flex items-center gap-7 ml-9 sm:hidden">
                         <img src="/icons/ShoppingCartSimple.svg" alt="Cart icon" />

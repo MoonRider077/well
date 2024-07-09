@@ -134,6 +134,11 @@
         "title": "sahifa topilmadi",
         "span": "Afsus, ",
         "button": "Bosh sahifaga"
-    }
+    },
+
+    "mobile": {
+      "noAddress": "Manzil yo'q",
+      "addressInfo": "Bizning xizmatimizdan qulay foydalanish uchun manzillarni qo'shing"
+  }
 }
   

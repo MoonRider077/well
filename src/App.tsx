@@ -8,6 +8,7 @@ import DetailsFirst from "./components/news/details/Details-1"
 import DetailsSecond from "./components/news/details/Details-2"
 import DetailsThird from "./components/news/details/Details-3"
 import ErrorPage from "./pages/ErrorPage"
+import OrderPage from "./pages/OrderPage"
 
 function App () {
 
@@ -24,6 +25,7 @@ function App () {
           <Route path='/news/details/2' element={<DetailsSecond />}></Route>
           <Route path='/news/details/3' element={<DetailsThird />}></Route>
           <Route path='/terms' element={<TermsPage />}></Route>
+          <Route path='/address' element={<OrderPage />}></Route>
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </Router>
