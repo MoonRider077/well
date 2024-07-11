@@ -7,9 +7,9 @@ interface socialImages {
 }
 
 const socialMediaImages: socialImages[] = [
-    { id: 1, image: './icons/facebook.svg', link: 'https://www.facebook.com/quduq.uz/' },
-    { id: 2, image: './icons/instagram.svg', link: 'https://www.instagram.com/quduq_uz/' },
-    { id: 3, image: './icons/telegram.svg', link: 'https://t.me/quduquz/' }
+    { id: 1, image: '/icons/facebook.svg', link: 'https://www.facebook.com/quduq.uz/' },
+    { id: 2, image: '/icons/instagram.svg', link: 'https://www.instagram.com/quduq_uz/' },
+    { id: 3, image: '/icons/telegram.svg', link: 'https://t.me/quduquz/' }
 ]
 
 const SocialMedia: React.FC = () => {
