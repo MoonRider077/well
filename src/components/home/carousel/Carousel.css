@@ -64,6 +64,12 @@
     background-color: #0072BB;
 }
 
+@media screen and (max-width: 1200px) {
+    .custom-arrow {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .custom-arrow {
         display: none !important;

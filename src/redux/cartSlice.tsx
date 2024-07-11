@@ -1,10 +1,10 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 interface CartItem {
   id: string;
-  titleKey: string; 
-  price: string; 
-  curKey: string; 
+  titleKey: string;
+  price: string;
+  curKey: string;
   image: string;
   quantity: number;
 }
@@ -18,11 +18,13 @@ const initialState: CartState = {
 };
 
 const cartSlice = createSlice({
-  name: 'cart',
+  name: "cart",
   initialState,
   reducers: {
     addToCart: (state, action) => {
-      const itemIndex = state.cart.findIndex(item => item.id === action.payload.id);
+      const itemIndex = state.cart.findIndex(
+        (item) => item.id === action.payload.id
+      );
       if (itemIndex >= 0) {
         state.cart[itemIndex].quantity += 1;
       } else {
@@ -30,19 +32,30 @@ const cartSlice = createSlice({
       }
     },
     removeFromCart: (state, action) => {
-      state.cart = state.cart.filter(item => item.id !== action.payload.id);
+      console.log("action.payload", action.payload);
+
+      let nextCart = JSON.parse(JSON.stringify(state.cart));
+      console.log("nextCart", nextCart);
+
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      nextCart = nextCart.filter((item: any) => item.id !== action.payload.id);
+      state.cart = nextCart;
     },
     removeAllFromCart: (state) => {
       state.cart = [];
     },
     increase: (state, action) => {
-      const itemIndex = state.cart.findIndex(item => item.id === action.payload.id);
+      const itemIndex = state.cart.findIndex(
+        (item) => item.id === action.payload.id
+      );
       if (itemIndex >= 0) {
         state.cart[itemIndex].quantity += 1;
       }
     },
     decrease: (state, action) => {
-      const itemIndex = state.cart.findIndex(item => item.id === action.payload.id);
+      const itemIndex = state.cart.findIndex(
+        (item) => item.id === action.payload.id
+      );
       if (itemIndex >= 0 && state.cart[itemIndex].quantity > 1) {
         state.cart[itemIndex].quantity -= 1;
       }
@@ -50,5 +63,11 @@ const cartSlice = createSlice({
   },
 });
 
-export const { addToCart, removeFromCart, removeAllFromCart, increase, decrease } = cartSlice.actions;
+export const {
+  addToCart,
+  removeFromCart,
+  removeAllFromCart,
+  increase,
+  decrease,
+} = cartSlice.actions;
 export default cartSlice.reducer;

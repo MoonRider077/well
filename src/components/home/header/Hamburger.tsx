@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useDispatch } from 'react-redux'
+import { addToCart } from '../../../redux/cartSlice'
 import './styles/Hamburger.css'
 
 interface ProductsMenu {
@@ -23,6 +25,7 @@ const Hamburger: React.FC = () => {
     const { t } = useTranslation('global')
     const [imgChanged, setImgChanged] = useState(false);
     const [showProducts, setShowProducts] = useState(false)
+    const dispatch = useDispatch()
     
     const handleHamburgerClick = () => {
         setImgChanged(!imgChanged)
@@ -48,6 +51,18 @@ const Hamburger: React.FC = () => {
         };
     }, [setImgChanged, setShowProducts]);
 
+    const handleAddToCart = (product: ProductsMenu) => {
+        const cartItem = {
+          id: product.id.toString(),
+          titleKey: product.titleKey,
+          price: product.price,
+          curKey: product.curKey,
+          image: product.image,
+          quantity: 1
+        };
+        dispatch(addToCart(cartItem));
+      };
+
   return (
     <div className='relative sm:hidden'>
         <div id='parentMenu' className='bg-[#F7F8FA] p-3 rounded-full cursor-pointer' onClick={handleHamburgerClick}>
@@ -65,7 +80,7 @@ const Hamburger: React.FC = () => {
                         const colSpanClass = index < 5 ? 'md:flex' : 'sm:grid sm:grid-cols-5';
                         
                         return (
-                            <div id='menu' className={`${colSpanClass} cursor-pointer relative flex items-center justify-center w-[245px] h-[72px] rounded-[200px] bg-[#F7F8FA] group`}>
+                            <div id='menu' onClick={() => handleAddToCart(circle)} key={circle.id} className={`${colSpanClass} cursor-pointer relative flex items-center justify-center w-[245px] h-[72px] rounded-[200px] bg-[#F7F8FA] group`}>
                                 <div className='absolute border border-solid border-[#F0F2F6] group-hover:border-[#0072BB] p-[10px] bg-white bottom-0 left-0 rounded-[200px]'>
                                     <img src={circle.image} alt="image" className='w-[50px] h-[50px] rounded-[50px]'/>
                                 </div>

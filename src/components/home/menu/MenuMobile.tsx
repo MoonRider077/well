@@ -29,7 +29,7 @@ const MenuMobile: React.FC = () => {
         </div>
         <div className='flex flex-col items-center relative'>
             <img src="/icons/ShoppingCartSimple.svg" alt="icon" onClick={toggleCart}/>
-            <span className="top-[-5px] right-[-10px] text-[12px] leading-[18px] absolute px-[6px] py-[1px] rounded-[50%] bg-[#0072BB] text-white">
+            <span className="top-[-5px] right-[3px] text-[12px] leading-[18px] absolute px-[6px] py-[1px] rounded-[50%] bg-[#0072BB] text-white">
                 {totalQuantity}
             </span>
             <p className='text-[13px] leading-[19.5px] text-[#677E8B] hover:text-[#0072BB]'>
