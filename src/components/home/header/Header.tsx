@@ -8,7 +8,7 @@ import ResponsiveLanguage from "./ResponsiveLanguage";
 import { useSelector } from "react-redux";
 import Cart from "../product/Cart";
 import Overlay from "../product/Overlay";
-import { RootState } from "@reduxjs/toolkit/query";
+import { RootState } from "../../../redux/store";
 
 export default function Header() {
     const { t } = useTranslation('global');

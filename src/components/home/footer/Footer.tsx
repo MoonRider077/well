@@ -8,6 +8,7 @@ const Footer: React.FC = () => {
         <div className='mx-auto max-w-screen-xl'>
             <FooterTop />
             <div className='hidden sm:block absolute w-[90%] h-[1px] bg-[#EAEDF2] left-1/2 transform -translate-x-1/2'></div>
+            <div className='bg-red-[[#F0F2F6]] w-full h-[1px]'></div>
             <FooterBottom />
         </div>
     </footer>

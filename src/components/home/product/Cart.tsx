@@ -51,7 +51,7 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
               {t('cart.theCart')}
             </p>
             <div className='p-[11px] bg-[#F7F8FA] rounded-full cursor-pointer' onClick={onClose}>
-              <img src="/public/icons/X.svg" alt="close icon" />
+              <img src="/icons/X.svg" alt="close icon" />
             </div>
             <div className='hidden sm:block absolute w-full h-[1px] bg-[#F0F2F6] left-0 top-[70px]'>
               
@@ -70,26 +70,26 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                   cartItems.map((item: CartItem, index: number) => (
                       <div>
                           <div key={item.id} className={`flex ${index !== 0 ? 'mt-5' : ''} sm:hidden`}>
-                            <div className='border border-solid border-[#F0F2F6] rounded-[16px] p-2 sm:p-1 sm:max-h-[100px]'>
-                                <img src={item.image} alt="product" className='max-w-32 h-auto sm:max-w-24' />
+                            <div className='border border-solid border-[#F0F2F6] rounded-[16px] p-2]'>
+                                <img src={item.image} alt="product" className='max-w-32 h-auto' />
                             </div>
-                            <div className='ml-7 mt-[35px] font-medium w-[28%] sm:w-[20%] sm:mt-[25px] sm:ml-[4px]'>
-                                <p className='sm:text-[10px] sm:leading-[14px]'>{t(item.titleKey)}</p>
-                                <p className='mt-[10px] sm:mt-[5px] text-[20px] leading-[30px] sm:text-[12px] sm:leading-[18px]'>
+                            <div className='ml-7 mt-[35px] font-medium w-[28%]'>
+                                <p>{t(item.titleKey)}</p>
+                                <p className='mt-[10px] text-[20px] leading-[30px]'>
                                     {item.price} {t(item.curKey)}
                                 </p>
                             </div>
-                          <div className='mt-[47px] ml-[4rem] sm:ml-[1rem]'>
-                            <div className='flex #F7F8FA py-3 sm:py-2 border-none rounded-[50px] bg-[#F7F8FA] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out'>
-                              <button className='px-[2rem] sm:px-6' 
+                          <div className='mt-[47px] ml-[4rem]'>
+                            <div className='flex #F7F8FA py-3 border-none rounded-[50px] bg-[#F7F8FA] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out'>
+                              <button className='px-[2rem] border-none outline-none' 
                                     onClick={() => handleIncrease(item.id)}>+</button>
                                     <div>{item.quantity}</div>
-                              <button className='px-[2rem] sm:px-6' 
+                              <button className='px-[2rem] border-none outline-none' 
                                     onClick={() => handleDecrease(item.id)}>-</button>
                             </div>
                           </div>
                             <div className='ml-auto cursor-pointer' onClick={() => handleRemoveFromCart(item.id)}>
-                                <img src="/public/icons/blackX.svg" alt="delete" />
+                                <img src="/icons/blackX.svg" alt="delete" />
                             </div>
                         </div>
                         <div key={item.id} className={`hidden sm:block ${index !== 0 ? 'mt-10' : ''}`}>
@@ -101,7 +101,7 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                               {t(item.titleKey)}
                             </p>
                             <div className='absolute right-0'>
-                              <img src="/public/icons/blackX.svg" alt="close icon" />
+                              <img src="/icons/blackX.svg" alt="close icon" />
                             </div>
                           </div>
                           <div className='mt-5 flex justify-between'>
@@ -109,10 +109,10 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                               {item.price} {t(item.curKey)}
                             </p>
                             <div className='flex #F7F8FA py-2 border-none rounded-[50px] bg-[#F7F8FA] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out'>
-                              <button className='px-[2.3rem]' 
+                              <button className='px-[2.3rem] border-none outline-none' 
                                     onClick={() => handleIncrease(item.id)}>+</button>
                                     <div>{item.quantity}</div>
-                              <button className='px-[2.3rem]' 
+                              <button className='px-[2.3rem] border-none outline-none' 
                                     onClick={() => handleDecrease(item.id)}>-</button>
                             </div>
                           </div>

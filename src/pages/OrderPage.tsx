@@ -6,7 +6,7 @@ const OrderPage: React.FC = () => {
   const { t } = useTranslation('global')
   
   return (
-    <div className='hidden sm:block'>
+    <div className='hidden sm:block relative'>
         <nav className='flex py-4 px-5 justify-between border-0 border-b border-solid border-[#F0F2F6]'>
             <h2 className='font-semibold text-[20px] leading-[30px]'>
                 {t('header.delivery')}
@@ -28,7 +28,7 @@ const OrderPage: React.FC = () => {
                     </p>
                 </div>
             </div>
-        <footer className='mt-[168px] bg-[#F7F8FA] p-5 flex justify-center'>
+        <footer className='fixed bottom-0 w-full bg-[#F7F8FA] p-5 flex justify-center'>
             <button className='rounded-[50px] border-none bg-[#0072BB] py-3 px-[6rem] text-white font-medium text-nowrap hover:bg-white hover:text-[#0072BB]'>
                 {t('header.order')}
             </button>
