@@ -64,7 +64,7 @@ const ContactDetails: React.FC = () => {
                 <div>
                 <div>
                     <img src="/images/Mapsicle Map.jpg" alt="Map" className='mt-[110px] sm:hidden'/>
-                    <img src="/public/images/mapMobile.jpg" alt="Map" className='hidden sm:block w-full h-auto mt-[3.125rem]'/>
+                    <img src="/images/mapMobile.jpg" alt="Map" className='hidden sm:block w-full h-auto mt-[3.125rem]'/>
                 </div>
             </div>
         </div>
