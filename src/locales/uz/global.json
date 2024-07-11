@@ -24,11 +24,11 @@
     },
 
     "products": [
-    { "title": "Suv, 19 L", "price": "40,000 so'm" },
-    { "title": "Suv, 10 L", "price": "12,000 so'm" },
-    { "title": "Suv sovutgichi", "price": "5,000,000 so'm" },
-    { "title": "Mexanik nasos", "price": "20,000 so'm" },
-    { "title": "Idish tutqichi", "price": "14,000 so'm" }
+    { "title": "Suv, 19 L", "cur": "so'm" },
+    { "title": "Suv, 10 L", "cur": "so'm" },
+    { "title": "Suv sovutgichi", "cur": "so'm" },
+    { "title": "Mexanik nasos", "cur": "so'm" },
+    { "title": "Idish tutqichi", "cur": "so'm" }
   ],
 
     "accordion": {
@@ -138,7 +138,19 @@
 
     "mobile": {
       "noAddress": "Manzil yo'q",
-      "addressInfo": "Bizning xizmatimizdan qulay foydalanish uchun manzillarni qo'shing"
-  }
+      "addressInfo": "Bizning xizmatimizdan qulay foydalanish uchun manzillarni qo'shing",
+      "main": "Bosh sahifa",
+      "profile": "Profil",
+      "cart": "Savat",
+      "menu": "Menyu"
+  },
+
+    "cart": {
+        "empty": "Savat boʻsh, mahsulotlarni tanlang",
+        "total": "Jami:",
+        "theCart": "Savat",
+        "resetCart": "Savatni bo'shatish",
+        "confirmOrder": "Buyurtma berish"
+    }
 }
   

@@ -24,11 +24,11 @@
     },
 
     "products": [
-    { "title": "Water, 19 L", "price": "40,000 uzs" },
-    { "title": "Water, 10 L", "price": "12,000 uzs" },
-    { "title": "Water cooler", "price": "5,000,000 uzs" },
-    { "title": "Mechanical pump", "price": "20,000 uzs" },
-    { "title": "Bottle handle", "price": "14,000 uzs" }
+    { "title": "Water, 19 L", "cur": "uzs" },
+    { "title": "Water, 10 L", "cur": "uzs" },
+    { "title": "Water cooler", "cur": "uzs" },
+    { "title": "Mechanical pump", "cur": "uzs" },
+    { "title": "Bottle handle", "cur": "uzs" }
   ],
 
     "accordion": {
@@ -138,7 +138,19 @@
 
     "mobile": {
       "noAddress": "No address",
-      "addressInfo": "Add addresses for more convenient use of our service"
-  }
+      "addressInfo": "Add addresses for more convenient use of our service",
+      "main": "Home",
+      "profile": "Profile",
+      "cart": "Cart",
+      "menu": "Menu"
+  },
+
+    "cart": {
+        "empty": "The cart is empty, choose products",
+        "total": "Total:",
+        "theCart": "Cart",
+        "resetCart": "Empty cart",
+        "confirmOrder": "Confirm order"
+    }
 }
   

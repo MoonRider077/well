@@ -24,11 +24,11 @@
     },
   
     "products": [
-      { "title": "Wasser, 19 L", "price": "40.000 uzs" },
-      { "title": "Wasser, 10 L", "price": "12.000 uzs" },
-      { "title": "Wasserspender", "price": "5.000.000 uzs" },
-      { "title": "Mechanische Pumpe", "price": "20.000 uzs" },
-      { "title": "Flaschenhalter", "price": "14.000 uzs" }
+      { "title": "Wasser, 19 L", "cur": "uzs" },
+      { "title": "Wasser, 10 L", "cur": "uzs" },
+      { "title": "Wasserspender", "cur": "uzs" },
+      { "title": "Mechanische Pumpe", "cur": "uzs" },
+      { "title": "Flaschenhalter", "cur": "uzs" }
     ],
   
     "accordion": {
@@ -138,7 +138,19 @@
 
     "mobile": {
       "noAddress": "Keine Adresse",
-      "addressInfo": "Fügen Sie Adressen hinzu, um unseren Service bequemer zu nutzen"
-  }
+      "addressInfo": "Fügen Sie Adressen hinzu, um unseren Service bequemer zu nutzen",
+      "main": "Startseite",
+      "profile": "Profil",
+      "cart": "Warenkorb",
+      "menu": "Menü"
+  },
+
+    "cart": {
+        "empty": "Der warenkorb ist leer, wählen sie produkte aus",
+        "total": "Gesamt:",
+        "theCart": "Wagen",
+        "resetCart": "Leerer warenkorb",
+        "confirmOrder": "Bestellung aufgeben"
+    }
   }
   

@@ -9,11 +9,14 @@ import DetailsSecond from "./components/news/details/Details-2"
 import DetailsThird from "./components/news/details/Details-3"
 import ErrorPage from "./pages/ErrorPage"
 import OrderPage from "./pages/OrderPage"
+import { Provider } from "react-redux"
+import store from "./redux/store"
 
 function App () {
 
   return (
     <>
+    <Provider store={store}>
       <Router>
         <Routes>
           <Route index element={<HomePage />}></Route>
@@ -29,6 +32,7 @@ function App () {
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </Router>
+    </Provider>
     </>
   )
 }
