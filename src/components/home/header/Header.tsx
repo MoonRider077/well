@@ -8,10 +8,11 @@ import ResponsiveLanguage from "./ResponsiveLanguage";
 import { useSelector } from "react-redux";
 import Cart from "../product/Cart";
 import Overlay from "../product/Overlay";
+import { RootState } from "@reduxjs/toolkit/query";
 
 export default function Header() {
     const { t } = useTranslation('global');
-    const cartItems = useSelector(state => state.cart.cart)
+    const cartItems = useSelector((state: RootState) => state.cart.cart);
     const [isCartVisible, setIsCartVisible] = useState(false)
     
 
