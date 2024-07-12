@@ -34,6 +34,9 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
     0
   );
 
+  let formattedTotalPrice = totalPrice.toLocaleString('en'); 
+  formattedTotalPrice = formattedTotalPrice.replace(/,/g, ' ') 
+
   const handleRemoveFromCart = (id: string) => {
     dispatch(removeFromCart({ id }));
   };
@@ -105,16 +108,16 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                   <div className="flex #F7F8FA py-3 border-none rounded-[50px] bg-[#F7F8FA] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out">
                     <button
                       className="px-[2rem] border-none outline-none"
-                      onClick={() => handleIncrease(item.id)}
+                      onClick={() => handleDecrease(item.id)}
                     >
-                      +
+                      -
                     </button>
                     <div>{item.quantity}</div>
                     <button
                       className="px-[2rem] border-none outline-none"
-                      onClick={() => handleDecrease(item.id)}
+                      onClick={() => handleIncrease(item.id)}
                     >
-                      -
+                      +
                     </button>
                   </div>
                 </div>
@@ -140,7 +143,7 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                   <p className="ml-5 font-medium self-center">
                     {t(item.titleKey)}
                   </p>
-                  <div className="absolute right-0">
+                  <div className="absolute right-0" onClick={() => handleRemoveFromCart(item.id)}>
                     <img src="/icons/blackX.svg" alt="close icon" />
                   </div>
                 </div>
@@ -151,16 +154,16 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
                   <div className="flex #F7F8FA py-2 border-none rounded-[50px] bg-[#F7F8FA] hover:text-[#FFFFFF] hover:bg-[#0072BB] transition duration-300 ease-in-out">
                     <button
                       className="px-[2.3rem] border-none outline-none"
-                      onClick={() => handleIncrease(item.id)}
+                      onClick={() => handleDecrease(item.id)}
                     >
-                      +
+                      -
                     </button>
                     <div>{item.quantity}</div>
                     <button
                       className="px-[2.3rem] border-none outline-none"
-                      onClick={() => handleDecrease(item.id)}
+                      onClick={() => handleIncrease(item.id)}
                     >
-                      -
+                      +
                     </button>
                   </div>
                 </div>
@@ -176,7 +179,7 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
         <div className="sm:flex sm:justify-between">
           <p>{t("cart.total")}</p>
           <p>
-            {totalPrice} {t(cartItems.length > 0 ? cartItems[0].curKey : "")}
+            {formattedTotalPrice} {t(cartItems.length > 0 ? cartItems[0].curKey : "")}
           </p>
         </div>
         <div className="sm:flex sm:justify-center">
