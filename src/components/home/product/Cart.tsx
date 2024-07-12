@@ -183,7 +183,7 @@ const Cart: React.FC<CartProps> = ({ isVisible, onClose }) => {
           </p>
         </div>
         <div className="sm:flex sm:justify-center">
-          <button className="sm:mt-5 py-4 px-[5.625rem] bg-[#0072BB] text-white rounded-[50px] border border-solid font-medium hover:bg-white hover:text-[#0072BB] hover:border-[#0072BB]">
+          <button className="sm:mt-5 py-4 px-[5.625rem] bg-[#0072BB] text-white outline-none rounded-[50px] border border-solid font-medium hover:bg-white hover:text-[#0072BB] hover:border-[#0072BB]">
             {t("cart.confirmOrder")}
           </button>
         </div>

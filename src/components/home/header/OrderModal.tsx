@@ -22,9 +22,9 @@ const OrderModal: React.FC<OrderModalProps> = ({ onClose }) => {
         </nav>
         <div className='mt-[30px] bg-[#F7F8FA] rounded-[20px] p-5'>
           <div className='flex justify-between relative'>
-            <img src="/icons/MagnifyingGlass.svg" alt="" className='absolute left-[15px] top-[15px]'/>
+            <img src="/icons/MagnifyingGlass.svg" alt="" className='border-none outline-none absolute left-[15px] top-[15px]'/>
             <input type="text" id='text' name='text' placeholder='Введите адрес' className='font-medium p-4 w-[80%] rounded-[100px] pl-[45px]'/>
-            <button className='py-4 px-[3.5rem] text-white bg-[#0072BB] rounded-[50px]'>
+            <button className='py-4 px-[3.5rem] text-white bg-[#0072BB] rounded-[50px]border-none outline-none '>
               Найти
             </button>
           </div>
