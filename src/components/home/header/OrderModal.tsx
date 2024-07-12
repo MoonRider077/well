@@ -1,5 +1,4 @@
 import React from 'react'
-import { YMaps, Map } from "react-yandex-maps"
 
 interface OrderModalProps {
     onClose: () => void;
@@ -30,20 +29,8 @@ const OrderModal: React.FC<OrderModalProps> = ({ onClose }) => {
             </button>
           </div>
           <div className='mt-5'>
-                  <YMaps>
-                          <Map 
-                              defaultState={{ center: [55.75, 37.57], zoom: 9 }}
-                              width={'100%'}
-                              height={'200px'} 
-                              options={{ 
-                                  minZoom: 5,
-                                  maxZoom: 15,
-                                  controls: ['zoomControl', 'fullscreenControl'],
-                                  behaviors: ['drag', 'dblClickZoom'],
-                            }} 
-                          />
-                  </YMaps>
-              </div>
+
+          </div>
         </div>
       </div>
     </div>
